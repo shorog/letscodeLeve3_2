@@ -45,6 +45,7 @@ public class progressBar extends Animation {
         float value = from + (to - from) * interpolatedTime;
         progressBar.setProgress((int) value);
         textView.setText((int) value + " %");
+
         if (value == to) {
 
             String str = mySqliteOpenHelper.databaseToString();

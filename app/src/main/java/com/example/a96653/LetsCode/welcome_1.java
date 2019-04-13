@@ -52,7 +52,7 @@ public class welcome_1 extends AppCompatActivity {
                 {
                     mySqliteOpenHelper.addData(txt4.getText().toString(),0);
                     next.putExtra("com.example.a96653.LetsCode", txt4.getText().toString()+"");
-                    startActivity(next);
+                     startActivity(next);
                     mySqliteOpenHelper.UpdateWelcomingTable("welcome2",1);
                 }
 
